@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/html; charset=UTF-8
+Content-Length: 556
+Connection: close
+
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search in Cache</title>
+<body>
+<p><h2>Search in the cache of proxy server ArtOz</h2> </br><em>Please only input one word in keyword input</em></p>
+<form action="http://127.0.0.1/search.html" method="get">
+  <p>Keyword: <input type="text" name="keyword" /></p>
+  <p>search in: 
+  	<select name="type">
+  	  <option value="url">url</option>
+  	  <option value="content">content</option>
+  	</select>
+  <p>
+  <input type="submit" value="I'm feeling lucky" />
+  </p>
+</form>
+</body>
+</html>
